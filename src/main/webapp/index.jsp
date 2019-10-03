@@ -16,7 +16,11 @@
         -->
         <form action="form1" method="POST">
             name: <input type="text" name="username"></input><br/>
-            password: <input type="password" name="pass"></input>
+            password: <input type="password" name="pass"></input><br/>
+            從哪得知:
+            <input type="checkbox" name="source" value="web"></input>網站
+            <input type="checkbox" name="source" value="news"></input>新聞
+            <input type="checkbox" name="source" value="fb"></input>Facebook<br/>
             <input type="submit"/>
         </form>
     </body>
